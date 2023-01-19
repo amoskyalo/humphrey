@@ -1,5 +1,4 @@
 import React from "react";
-import image from "../../Assets/profile.png";
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 
 const About = () => {
@@ -12,15 +11,8 @@ const About = () => {
         About
       </h2>
       <div className="mt-10 flex flex-col space-y-5 lg:flex-row lg:mt-10 lg:space-y-0 lg:space-x-10">
-        <div className="h-80 lg:w-[40%] md:h-[400px] lg:h-96">
-          <img
-            src={image}
-            alt=""
-            className="h-full w-full object-cover md:object-contain"
-          />
-        </div>
-        <div className="lg:w-[60%]">
-          <div className="flex flex-row gap-2 text-3xl font-extrabold mb-3 md:text-4xl">
+        <div>
+          <div className="flex flex-row gap-2 text-2xl font-extrabold mb-3">
             <p>Hello there</p>
           </div>
           <ul className="text-base">

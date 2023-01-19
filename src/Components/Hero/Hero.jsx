@@ -73,10 +73,10 @@ const Hero = () => {
               <BsWhatsapp className="text-xl" />
               Lets talk
             </a>
-            <button className="flex flex-row w-max items-center gap-2 border font-bold rounded-xl py-2 px-5 md:py-1.5">
-              Download my CV
+            <a href="mailto:humphreyomukaga@gmail.com?subject=CV Request&body=Hello Humphrey, am writting this email to request for you CV." className="flex flex-row w-max items-center gap-2 border font-bold rounded-xl py-2 px-5 md:py-1.5">
+              Download My CV
               <BiCloudDownload className="text-2xl" />
-            </button>
+            </a>
           </div>
         </div>
         <div className="flex flex-col gap-5 p-8 text-center md:gap:10 md:p-0 md:flex-row">
