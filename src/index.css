@@ -18,9 +18,7 @@ body .hero{
 
 @media(max-width: 768px){
     body .hero{
-        background-image: url('../src/Assets/background2.jpeg');
-        background-size: 100% 750px;
-        background-position: 100% 0;
+       background-image: none;
     }
 }
 
